@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="Lora-Regular-OTF.otf.GlyphOrder.ttx"/>
+  <head src="Lora-Regular-OTF.otf._h_e_a_d.ttx"/>
+  <hhea src="Lora-Regular-OTF.otf._h_h_e_a.ttx"/>
+  <maxp src="Lora-Regular-OTF.otf._m_a_x_p.ttx"/>
+  <OS_2 src="Lora-Regular-OTF.otf.O_S_2f_2.ttx"/>
+  <name src="Lora-Regular-OTF.otf._n_a_m_e.ttx"/>
+  <cmap src="Lora-Regular-OTF.otf._c_m_a_p.ttx"/>
+  <post src="Lora-Regular-OTF.otf._p_o_s_t.ttx"/>
+  <CFF src="Lora-Regular-OTF.otf.C_F_F_.ttx"/>
+  <GPOS src="Lora-Regular-OTF.otf.G_P_O_S_.ttx"/>
+  <GSUB src="Lora-Regular-OTF.otf.G_S_U_B_.ttx"/>
+  <hmtx src="Lora-Regular-OTF.otf._h_m_t_x.ttx"/>
+  <kern src="Lora-Regular-OTF.otf._k_e_r_n.ttx"/>
+</ttFont>
