@@ -1,0 +1,376 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Lora
+    Sub family: Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved.
+    License: Copyright (c) 2011-2013, Cyreal (www.cyreal.org, a@cyreal.org), with Reserved Font Name 'Lora'
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.014
+    Vendor: Cyreal (www.cyreal.org a@cyreal.org)
+    Vendor url: http://cyreal.org/
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org/
+    Glyph count: 460
+    Character count: 452
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+  Font:
+    Common name: Lora
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2013 by Cyreal (www.cyreal.org, a@cyreal.org). All rights reserved.
+    License: Copyright (c) 2011-2013, Cyreal (www.cyreal.org, a@cyreal.org), with Reserved Font Name 'Lora'
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.014
+    Vendor: Cyreal (www.cyreal.org, a@cyreal.org)
+    Vendor url: http://cyreal.org/
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org/
+    Glyph count: 456
+    Character count: 448
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+  Font:
+    Common name: Lora
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved.
+    License: Copyright (c) 2011-2013, Cyreal (www.cyreal.org, a@cyreal.org), with Reserved Font Name 'Lora'
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.014
+    Vendor: Cyreal (www.cyreal.org a@cyreal.org)
+    Vendor url: http://cyreal.org/
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org/
+    Glyph count: 456
+    Character count: 448
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+  Font:
+    Common name: Lora Bold Italic
+    Sub family: Bold Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Lora"
+    License: Copyright (c) 2011, Cyreal (www.cyreal.org)
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.011;PS 001.011;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Cyreal
+    Vendor url: http://cyreal.org
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org
+    Glyph count: 461
+    Character count: 448
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+  Font:
+    Common name: Lora
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright © 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved.
+    License: Copyright (c) 2011, Cyreal (www.cyreal.org)
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.011;PS 001.011;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Cyreal
+    Vendor url: http://cyreal.org
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org
+    Glyph count: 453
+    Character count: 443
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 99
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+  Font:
+    Common name: Lora Bold
+    Sub family: Bold
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright © 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved.
+    License: Copyright (c) 2011, Cyreal (www.cyreal.org)
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.011;PS 001.011;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Cyreal
+    Vendor url: http://cyreal.org
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org
+    Glyph count: 453
+    Character count: 443
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 99
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+  Font:
+    Common name: Lora
+    Sub family: Bold Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved.
+    License: Copyright (c) 2011-2013, Cyreal (www.cyreal.org, a@cyreal.org), with Reserved Font Name 'Lora'
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.014
+    Vendor: Cyreal (www.cyreal.org a@cyreal.org)
+    Vendor url: http://cyreal.org/
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org/
+    Glyph count: 460
+    Character count: 452
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+  Font:
+    Common name: Lora Italic
+    Sub family: Regular Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Lora"
+    License: Copyright (c) 2011, Cyreal (www.cyreal.org)
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.011;PS 001.011;hotconv 1.0.70;makeotf.lib2.5.58329
+    Vendor: Cyreal
+    Vendor url: http://cyreal.org
+    Designer: Olga Karpushina, Alexei Vanyashin
+    Designer url: http://cyreal.org
+    Glyph count: 461
+    Character count: 448
+    Orthographies:
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset latin
+          Support level: full
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full

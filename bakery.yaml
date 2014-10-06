@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Lora-Italic.ttf.ttx, Lora-Regular.ttf.ttx, Lora-Bold.ttf.ttx, Lora-BoldItalic.ttf.ttx,
+  src/Lora-BoldItalic-OTF.otf.ttx, src/Lora-Regular-OTF.otf.ttx, src/Lora-Bold-OTF.otf.ttx,
+  src/Lora-Italic-OTF.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

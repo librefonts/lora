@@ -1,0 +1,1197 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/lora/METADATA.json /home/travis/build/fontdirectory/lora/builds/build
+$ cp -a /home/travis/build/fontdirectory/lora/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/lora/builds/build
+$ cp -a /home/travis/build/fontdirectory/lora/FONTLOG.txt /home/travis/build/fontdirectory/lora/builds/build
+$ cp -a Lora-Italic.ttf.ttx Lora-Regular.ttf.ttx Lora-Bold.ttf.ttx Lora-BoldItalic.ttf.ttx src/Lora-BoldItalic-OTF.otf.ttx src/Lora-Regular-OTF.otf.ttx src/Lora-Bold-OTF.otf.ttx src/Lora-Italic-OTF.otf.ttx Lora-Italic.ttf._p_o_s_t.ttx Lora-Italic.ttf.G_D_E_F_.ttx Lora-Italic.ttf._c_m_a_p.ttx Lora-Italic.ttf._k_e_r_n.ttx Lora-Italic.ttf._m_a_x_p.ttx Lora-Italic.ttf._h_h_e_a.ttx Lora-Italic.ttf._g_a_s_p.ttx Lora-Italic.ttf._n_a_m_e.ttx Lora-Italic.ttf.G_P_O_S_.ttx Lora-Italic.ttf.G_S_U_B_.ttx Lora-Italic.ttf._g_l_y_f.ttx Lora-Italic.ttf.O_S_2f_2.ttx Lora-Italic.ttf._c_v_t.ttx Lora-Italic.ttf._f_p_g_m.ttx Lora-Italic.ttf._p_r_e_p.ttx Lora-Italic.ttf._h_d_m_x.ttx Lora-Italic.ttf.GlyphOrder.ttx Lora-Italic.ttf.L_T_S_H_.ttx Lora-Italic.ttf._h_e_a_d.ttx Lora-Italic.ttf._l_o_c_a.ttx Lora-Italic.ttf.V_D_M_X_.ttx Lora-Italic.ttf._h_m_t_x.ttx Lora-Regular.ttf._k_e_r_n.ttx Lora-Regular.ttf._h_e_a_d.ttx Lora-Regular.ttf._g_a_s_p.ttx Lora-Regular.ttf.G_D_E_F_.ttx Lora-Regular.ttf.GlyphOrder.ttx Lora-Regular.ttf._c_v_t.ttx Lora-Regular.ttf.L_T_S_H_.ttx Lora-Regular.ttf._h_h_e_a.ttx Lora-Regular.ttf._g_l_y_f.ttx Lora-Regular.ttf._p_r_e_p.ttx Lora-Regular.ttf._m_a_x_p.ttx Lora-Regular.ttf._n_a_m_e.ttx Lora-Regular.ttf._h_d_m_x.ttx Lora-Regular.ttf.G_P_O_S_.ttx Lora-Regular.ttf.G_S_U_B_.ttx Lora-Regular.ttf._l_o_c_a.ttx Lora-Regular.ttf.O_S_2f_2.ttx Lora-Regular.ttf._c_m_a_p.ttx Lora-Regular.ttf._h_m_t_x.ttx Lora-Regular.ttf._f_p_g_m.ttx Lora-Regular.ttf.V_D_M_X_.ttx Lora-Regular.ttf._p_o_s_t.ttx Lora-Bold.ttf._f_p_g_m.ttx Lora-Bold.ttf._g_a_s_p.ttx Lora-Bold.ttf._h_e_a_d.ttx Lora-Bold.ttf._k_e_r_n.ttx Lora-Bold.ttf._c_v_t.ttx Lora-Bold.ttf._h_d_m_x.ttx Lora-Bold.ttf._h_h_e_a.ttx Lora-Bold.ttf._g_l_y_f.ttx Lora-Bold.ttf.O_S_2f_2.ttx Lora-Bold.ttf._l_o_c_a.ttx Lora-Bold.ttf.V_D_M_X_.ttx Lora-Bold.ttf.G_P_O_S_.ttx Lora-Bold.ttf._h_m_t_x.ttx Lora-Bold.ttf._m_a_x_p.ttx Lora-Bold.ttf._c_m_a_p.ttx Lora-Bold.ttf._p_o_s_t.ttx Lora-Bold.ttf.L_T_S_H_.ttx Lora-Bold.ttf.G_S_U_B_.ttx Lora-Bold.ttf._p_r_e_p.ttx Lora-Bold.ttf.G_D_E_F_.ttx Lora-Bold.ttf._n_a_m_e.ttx Lora-Bold.ttf.GlyphOrder.ttx Lora-BoldItalic.ttf.GlyphOrder.ttx Lora-BoldItalic.ttf.G_S_U_B_.ttx Lora-BoldItalic.ttf._c_v_t.ttx Lora-BoldItalic.ttf._h_h_e_a.ttx Lora-BoldItalic.ttf._f_p_g_m.ttx Lora-BoldItalic.ttf._c_m_a_p.ttx Lora-BoldItalic.ttf._h_m_t_x.ttx Lora-BoldItalic.ttf.V_D_M_X_.ttx Lora-BoldItalic.ttf._p_r_e_p.ttx Lora-BoldItalic.ttf.O_S_2f_2.ttx Lora-BoldItalic.ttf._h_d_m_x.ttx Lora-BoldItalic.ttf.G_D_E_F_.ttx Lora-BoldItalic.ttf._l_o_c_a.ttx Lora-BoldItalic.ttf._k_e_r_n.ttx Lora-BoldItalic.ttf._g_l_y_f.ttx Lora-BoldItalic.ttf._g_a_s_p.ttx Lora-BoldItalic.ttf._m_a_x_p.ttx Lora-BoldItalic.ttf._n_a_m_e.ttx Lora-BoldItalic.ttf.G_P_O_S_.ttx Lora-BoldItalic.ttf._h_e_a_d.ttx Lora-BoldItalic.ttf._p_o_s_t.ttx Lora-BoldItalic.ttf.L_T_S_H_.ttx src/Lora-BoldItalic-OTF.otf._c_m_a_p.ttx src/Lora-BoldItalic-OTF.otf.O_S_2f_2.ttx src/Lora-BoldItalic-OTF.otf.G_S_U_B_.ttx src/Lora-BoldItalic-OTF.otf._p_o_s_t.ttx src/Lora-BoldItalic-OTF.otf._k_e_r_n.ttx src/Lora-BoldItalic-OTF.otf._h_e_a_d.ttx src/Lora-BoldItalic-OTF.otf._h_h_e_a.ttx src/Lora-BoldItalic-OTF.otf.C_F_F_.ttx src/Lora-BoldItalic-OTF.otf.GlyphOrder.ttx src/Lora-BoldItalic-OTF.otf._h_m_t_x.ttx src/Lora-BoldItalic-OTF.otf._m_a_x_p.ttx src/Lora-BoldItalic-OTF.otf._n_a_m_e.ttx src/Lora-BoldItalic-OTF.otf.G_P_O_S_.ttx src/Lora-Regular-OTF.otf._h_m_t_x.ttx src/Lora-Regular-OTF.otf.G_P_O_S_.ttx src/Lora-Regular-OTF.otf._c_m_a_p.ttx src/Lora-Regular-OTF.otf.O_S_2f_2.ttx src/Lora-Regular-OTF.otf._n_a_m_e.ttx src/Lora-Regular-OTF.otf._p_o_s_t.ttx src/Lora-Regular-OTF.otf._k_e_r_n.ttx src/Lora-Regular-OTF.otf.GlyphOrder.ttx src/Lora-Regular-OTF.otf.C_F_F_.ttx src/Lora-Regular-OTF.otf._h_h_e_a.ttx src/Lora-Regular-OTF.otf._m_a_x_p.ttx src/Lora-Regular-OTF.otf.G_S_U_B_.ttx src/Lora-Regular-OTF.otf._h_e_a_d.ttx src/Lora-Bold-OTF.otf._n_a_m_e.ttx src/Lora-Bold-OTF.otf.O_S_2f_2.ttx src/Lora-Bold-OTF.otf.C_F_F_.ttx src/Lora-Bold-OTF.otf._h_m_t_x.ttx src/Lora-Bold-OTF.otf._p_o_s_t.ttx src/Lora-Bold-OTF.otf.G_P_O_S_.ttx src/Lora-Bold-OTF.otf._k_e_r_n.ttx src/Lora-Bold-OTF.otf.G_S_U_B_.ttx src/Lora-Bold-OTF.otf.GlyphOrder.ttx src/Lora-Bold-OTF.otf._h_e_a_d.ttx src/Lora-Bold-OTF.otf._c_m_a_p.ttx src/Lora-Bold-OTF.otf._h_h_e_a.ttx src/Lora-Bold-OTF.otf._m_a_x_p.ttx src/Lora-Italic-OTF.otf.GlyphOrder.ttx src/Lora-Italic-OTF.otf.O_S_2f_2.ttx src/Lora-Italic-OTF.otf._k_e_r_n.ttx src/Lora-Italic-OTF.otf._h_e_a_d.ttx src/Lora-Italic-OTF.otf.G_P_O_S_.ttx src/Lora-Italic-OTF.otf._c_m_a_p.ttx src/Lora-Italic-OTF.otf._m_a_x_p.ttx src/Lora-Italic-OTF.otf._h_m_t_x.ttx src/Lora-Italic-OTF.otf._p_o_s_t.ttx src/Lora-Italic-OTF.otf.C_F_F_.ttx src/Lora-Italic-OTF.otf._h_h_e_a.ttx src/Lora-Italic-OTF.otf.G_S_U_B_.ttx src/Lora-Italic-OTF.otf._n_a_m_e.ttx /home/travis/build/fontdirectory/lora/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Italic.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Bold.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-BoldItalic-OTF.otf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular-OTF.otf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Bold-OTF.otf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Italic-OTF.otf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+$ fontbakery-check.py upstream-ttx Lora-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Italic.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lora-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lora-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Bold.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lora-BoldItalic-OTF.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-BoldItalic-OTF.otf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/LoraBoldItalic-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lora-Regular-OTF.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular-OTF.otf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lora-Bold-OTF.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Bold-OTF.otf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/LoraBold-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lora-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lora-Italic-OTF.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Italic-OTF.otf.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/LoraItalic-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/lora/builds/build /home/travis/build/fontdirectory/lora/builds/build/sources/LoraBoldItalic-Regular.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-BoldItalic.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/LoraBold-Regular.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/LoraItalic-Regular.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Italic.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular.ttx /home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Bold.ttx
+$ fontbakery-build-font2ttf.py sources/LoraBoldItalic-Regular.otf LoraBoldItalic-Regular.ttf
+Compiling "/home/travis/build/fontdirectory/lora/builds/build/sources/LoraBoldItalic-Regular.ttx" to "/home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/lora/builds/build/sources/Lora-BoldItalic.ttx" to "/home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/lora/builds/build/sources/LoraBold-Regular.ttx" to "/home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/lora/builds/build/sources/LoraItalic-Regular.ttx" to "/home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Italic.ttx" to "/home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Regular.ttx" to "/home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/lora/builds/build/sources/Lora-Bold.ttx" to "/home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+strippedname:/home/travis/build/fontThis font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf)
+directory/lora/builds/build/LoraBoldItalic-Regular.otf
+### Test LoraBoldItalic-Regular.ttf
+$ fontbakery-check.py result LoraBoldItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Preferred Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Preferred Styles string in the language English (US)
+ Mac String: Bold Italic
+Windows String: Regular
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.otf /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.otf /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.otf /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.otf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.otf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.otf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.otf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.otf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.otf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.otf /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.otf /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.otf /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+Parameter              Lora-Regular.otf    LoraItalic-Regular.otf    LoraBold-Regular.otf    LoraBoldItalic-Regular.ttf    Lora-Bold.ttf    Lora-Italic.ttf    Lora-BoldItalic.ttf    
+ymax                   1980                1968                      2061                    2116                          2061             1975               2116                   
+hhea.ascent            2116                2116                      2116                    2116                          2116             2116               2116                   
+OS/2.sTypoAscender     2116                2116                      2116                    2116                          2116             2116               2116                   
+OS/2.usWinAscent       2116                2116                      2116                    2116                          2116             2116               2116                   
+ymin                   -556                -582                      -582                    -602                          -582             -582               -602                   
+hhea.descent           -602                -602                      -602                    -602                          -602             -602               -602                   
+OS/2.sTypoDescender    -602                -602                      -602                    -602                          -602             -602               -602                   
+OS/2.usWinDescent      602                 602                       602                     602                           602              602                602                    
+hhea.lineGap           0                   0                         0                       0                             0                0                  0                      
+OS/2.sTypoLineGap      0                   0                         0                       0                             0                0                  0                      
+hhea total             2718                2718                      2718                    2718                          2718             2718               2718                   
+typo total             2718                2718                      2718                    2718                          2718             2718               2718                   
+win total              2718                2718                      2718                    2718                          2718             2718               2718                   
+UPM:Heights            2048:2536           2048:2550                 2048:2643               2048:2718                     2048:2643        2048:2557          2048:2718              
+UPM:Heights %          123 %               124 %                     129 %                   132 %                         129 %            124 %              132 %                  
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF LoraBoldItalic-Regular.ttf
+$ ls -l 'LoraBoldItalic-Regular.ttf'* # look at the size savings of that subset process
+LoraBoldItalic-Regular.ttf.opt: 78672 bytes
+LoraBoldItalic-Regular.ttf: 85008 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf.opt /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+### Autohint TTFs (ttfautohint) LoraBoldItalic-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf '/home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf: 78672 bytes
+/home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.autohint.ttf: 124572 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.autohint.ttf /home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+### Subset TTFs (pyftsubset) LoraBoldItalic-Regular.ttf
+$ pyftsubset LoraBoldItalic-Regular.latin
+$ pyftsubset LoraBoldItalic-Regular.menu
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/LoraBoldItalic-Regular.ttf
+### Test Lora-BoldItalic.ttf
+$ fontbakery-check.py result Lora-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Lora-BoldItalic.ttf
+$ ls -l 'Lora-BoldItalic.ttf'* # look at the size savings of that subset process
+Lora-BoldItalic.ttf.opt: 159756 bytes
+Lora-BoldItalic.ttf: 229120 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf.opt /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Lora-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf '/home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf: 159756 bytes
+/home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.autohint.ttf: 109868 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Lora-BoldItalic.ttf
+$ pyftsubset Lora-BoldItalic.latin
+$ pyftsubset Lora-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/Lora-BoldItalic.ttf
+$ fontbakery-build-font2ttf.py sources/LoraBold-Regular.otf LoraBold-Regular.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf)
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.otf
+### Test LoraBold-Regular.ttf
+$ fontbakery-check.py result LoraBold-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Preferred Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Preferred Styles string in the language English (US)
+ Mac String: Bold
+Windows String: Regular
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF LoraBold-Regular.ttf
+$ ls -l 'LoraBold-Regular.ttf'* # look at the size savings of that subset process
+LoraBold-Regular.ttf.opt: 88256 bytes
+LoraBold-Regular.ttf: 107904 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf.opt /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+### Autohint TTFs (ttfautohint) LoraBold-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf '/home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf: 88256 bytes
+/home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.autohint.ttf: 142176 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.autohint.ttf /home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+### Subset TTFs (pyftsubset) LoraBold-Regular.ttf
+$ pyftsubset LoraBold-Regular.latin
+$ pyftsubset LoraBold-Regular.menu
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/LoraBold-Regular.ttf
+$ fontbakery-build-font2ttf.py sources/LoraItalic-Regular.otf LoraItalic-Regular.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf)
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.otf
+### Test LoraItalic-Regular.ttf
+$ fontbakery-check.py result LoraItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Preferred Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Preferred Styles string in the language English (US)
+ Mac String: Regular Italic
+Windows String: Regular
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF LoraItalic-Regular.ttf
+$ ls -l 'LoraItalic-Regular.ttf'* # look at the size savings of that subset process
+LoraItalic-Regular.ttf.opt: 100816 bytes
+LoraItalic-Regular.ttf: 124092 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf.opt /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+### Autohint TTFs (ttfautohint) LoraItalic-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf '/home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf: 100816 bytes
+/home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.autohint.ttf: 138876 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.autohint.ttf /home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+### Subset TTFs (pyftsubset) LoraItalic-Regular.ttf
+$ pyftsubset LoraItalic-Regular.latin
+$ pyftsubset LoraItalic-Regular.menu
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/LoraItalic-Regular.ttf
+### Test Lora-Italic.ttf
+$ fontbakery-check.py result Lora-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Lora-Italic.ttf
+$ ls -l 'Lora-Italic.ttf'* # look at the size savings of that subset process
+Lora-Italic.ttf.opt: 163792 bytes
+Lora-Italic.ttf: 222424 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf.opt /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+### Autohint TTFs (ttfautohint) Lora-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf '/home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf: 163792 bytes
+/home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.autohint.ttf: 100808 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.autohint.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+### Subset TTFs (pyftsubset) Lora-Italic.ttf
+$ pyftsubset Lora-Italic.latin
+$ pyftsubset Lora-Italic.menu
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/Lora-Italic.ttf
+$ fontbakery-build-font2ttf.py sources/Lora-Regular.otf Lora-Regular.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf)
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.otf
+### Test Lora-Regular.ttf
+$ fontbakery-check.py result Lora-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Lora-Regular.ttf
+$ ls -l 'Lora-Regular.ttf'* # look at the size savings of that subset process
+Lora-Regular.ttf.opt: 84628 bytes
+Lora-Regular.ttf: 100844 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf.opt /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+### Autohint TTFs (ttfautohint) Lora-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf '/home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf: 84628 bytes
+/home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.autohint.ttf: 125200 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.autohint.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+### Subset TTFs (pyftsubset) Lora-Regular.ttf
+$ pyftsubset Lora-Regular.latin
+$ pyftsubset Lora-Regular.menu
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/Lora-Regular.ttf
+### Test Lora-Bold.ttf
+$ fontbakery-check.py result Lora-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.fix /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Lora-Bold.ttf
+$ ls -l 'Lora-Bold.ttf'* # look at the size savings of that subset process
+Lora-Bold.ttf.opt: 156476 bytes
+Lora-Bold.ttf: 226596 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf.opt /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+### Autohint TTFs (ttfautohint) Lora-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf '/home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf: 156476 bytes
+/home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.autohint.ttf: 109944 bytes
+$ mv /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.autohint.ttf /home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+### Subset TTFs (pyftsubset) Lora-Bold.ttf
+$ pyftsubset Lora-Bold.latin
+$ pyftsubset Lora-Bold.menu
+strippedname:/home/travis/build/fontdirectory/lora/builds/build/Lora-Bold.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/lora/builds/build
+{} exists
+Designer's name from font is: Olga Karpushina, Alexei Vanyashin
+Original size: 142176\nGzip size: 66003
+Family Name: Lora
+PS Name: Lora-Bold
+Full Name: Lora Bold
+Style: normal
+Weight: 400
+Filename: LoraBold-Regular.ttf
+Copyright: Copyright (c) 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved.
+Family Name: Lora
+PS Name: Lora-RegularItalic
+Full Name: Lora Regular Italic
+Style: italic
+Weight: 400
+Filename: LoraItalic-Regular.ttf
+Copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Lora"
+Family Name: Lora
+PS Name: Lora-BoldItalic
+Full Name: Lora Bold Italic
+Style: italic
+Weight: 700
+Filename: LoraBoldItalic-Regular.ttf
+Copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Lora"
+Family Name: Lora
+PS Name: Lora-Bold
+Full Name: Lora Bold
+Style: normal
+Weight: 700
+Filename: Lora-Bold.ttf
+Copyright: Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved.
+Family Name: Lora
+PS Name: Lora-Italic
+Full Name: Lora Italic
+Style: italic
+Weight: 400
+Filename: Lora-Italic.ttf
+Copyright: Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved.
+Family Name: Lora
+PS Name: Lora-BoldItalic
+Full Name: Lora Bold Italic
+Style: italic
+Weight: 700
+Filename: Lora-BoldItalic.ttf
+Copyright: Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved.
+Family Name: Lora
+PS Name: Lora-Regular
+Full Name: Lora
+Style: normal
+Weight: 400
+Filename: Lora-Regular.ttf
+Copyright: Copyright (c) 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved.
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): FAIL
+{
+  "name": "Lora", 
+  "designer": "Cyreal", 
+  "license": "OFL", 
+  "visibility": "External", 
+  "category": "Serif", 
+  "size": 86362, 
+  "fonts": [
+    {
+      "name": "Lora", 
+      "postScriptName": "Lora-Bold", 
+      "fullName": "Lora Bold", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "LoraBold-Regular.ttf", 
+      "copyright": "Copyright (c) 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved."
+    }, 
+    {
+      "name": "Lora", 
+      "postScriptName": "Lora-RegularItalic", 
+      "fullName": "Lora Regular Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "LoraItalic-Regular.ttf", 
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Lora\""
+    }, 
+    {
+      "name": "Lora", 
+      "postScriptName": "Lora-BoldItalic", 
+      "fullName": "Lora Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "LoraBoldItalic-Regular.ttf", 
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Lora\""
+    }, 
+    {
+      "name": "Lora", 
+      "postScriptName": "Lora-Bold", 
+      "fullName": "Lora Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Lora-Bold.ttf", 
+      "copyright": "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
+    }, 
+    {
+      "name": "Lora", 
+      "postScriptName": "Lora-Italic", 
+      "fullName": "Lora Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "Lora-Italic.ttf", 
+      "copyright": "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
+    }, 
+    {
+      "name": "Lora", 
+      "postScriptName": "Lora-BoldItalic", 
+      "fullName": "Lora Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "Lora-BoldItalic.ttf", 
+      "copyright": "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
+    }, 
+    {
+      "name": "Lora", 
+      "postScriptName": "Lora-Regular", 
+      "fullName": "Lora", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Lora-Regular.ttf", 
+      "copyright": "Copyright (c) 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved."
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2011-07-06"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Lora",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 86362,
+  "fonts": [
+    {
+      "name": "Lora",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LoraBold-Regular.ttf",
+      "postScriptName": "Lora-Bold",
+      "fullName": "Lora Bold",
+      "copyright": "Copyright (c) 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved."
+    },
+    {
+      "name": "Lora",
+      "style": "italic",
+      "weight": 400,
+      "filename": "LoraItalic-Regular.ttf",
+      "postScriptName": "Lora-RegularItalic",
+      "fullName": "Lora Regular Italic",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Lora\""
+    },
+    {
+      "name": "Lora",
+      "style": "italic",
+      "weight": 700,
+      "filename": "LoraBoldItalic-Regular.ttf",
+      "postScriptName": "Lora-BoldItalic",
+      "fullName": "Lora Bold Italic",
+      "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \"Lora\""
+    },
+    {
+      "name": "Lora",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Lora-Bold.ttf",
+      "postScriptName": "Lora-Bold",
+      "fullName": "Lora Bold",
+      "copyright": "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
+    },
+    {
+      "name": "Lora",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Lora-Italic.ttf",
+      "postScriptName": "Lora-Italic",
+      "fullName": "Lora Italic",
+      "copyright": "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
+    },
+    {
+      "name": "Lora",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Lora-BoldItalic.ttf",
+      "postScriptName": "Lora-BoldItalic",
+      "fullName": "Lora Bold Italic",
+      "copyright": "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
+    },
+    {
+      "name": "Lora",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lora-Regular.ttf",
+      "postScriptName": "Lora-Regular",
+      "fullName": "Lora",
+      "copyright": "Copyright (c) 2013 by Olga Karpushina, Alexei Vanyashin. All rights reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-06"
+}
